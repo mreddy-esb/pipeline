@@ -121,15 +121,15 @@
 	</build>
 
 	<distributionManagement>
-		<!-- <repository>
+		<repository>
 			<id>thirdparty</id>
 			<url>http://localhost:8081/nexus/content/repositories/thirdparty</url>
-		</repository> -->
+		</repository>
 		
-		<repository>
+		<!-- <repository>
 			<id>releases</id>
 			<url>http://localhost:8081/nexus/content/repositories/releases</url>
-		</repository>
+		</repository> -->
 
 		<snapshotRepository>
 			<id>snapshots</id>
