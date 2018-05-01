@@ -128,8 +128,10 @@
 
 		<snapshotRepository>
 			<id>snapshots</id>
-			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots/${groupId}/${artifactId}/${version}</url>
 		</snapshotRepository>
+		
+		
 	</distributionManagement>
 
 
